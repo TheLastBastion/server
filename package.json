@@ -1,0 +1,16 @@
+{
+  "name": "tlb-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cody James Casey <codyjamescasey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "https": "^1.0.0",
+    "passport": "^0.4.0",
+    "passport-steam": "^1.0.8"
+  }
+}

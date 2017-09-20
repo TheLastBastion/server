@@ -1,0 +1,8 @@
+<% if (!user) { %>
+	<p><a href="auth/steam">Sign On with Steam</a></p>
+<% } else { %>
+	<script>window.close();</script>
+<% } %>
+
+<!-- Should redirect to homepage if you're not logged in -->
+<p><a href="account">See Account Information</a></p>
